@@ -1,0 +1,124 @@
+header {
+    position: fixed;
+    width: 100%;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #202020;
+}
+
+/* @ HEADER LEFT */
+.top-left {
+    /* margin: auto; */
+    /* width: 25%; */
+}
+
+.logo-hamburger {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    color: #ffff;
+}
+
+.logo-hamburger>* {
+    cursor: pointer;
+}
+
+.logo-hamburger .hamburger-button {
+    background-color: transparent;
+    border: 0;
+}
+
+.logo-hamburger .hamburger-button:focus {
+    outline: none;
+}
+
+.logo-hamburger .hamburger-button:hover {
+    cursor: pointer;
+}
+
+.logo-hamburger .logo-img {
+    margin-left: 20px;
+}
+
+.logo-hamburger span {
+    font-size: 14px;
+}
+
+.logo-hamburger span sup {
+    font-size: 10px;
+    margin-left: 2px;
+    color: rgb(167, 166, 166);
+}
+
+/* @HEADER CENTER */
+.top-center {
+    /* width: 50%; */
+    flex: 0 0 30%;
+}
+
+.top-center .form-element {
+    /* display: flex; */
+    /* align-items: center; */
+}
+
+.top-center .form-element form {
+    display: flex;
+    position: relative;
+    /* width: 100%; */
+    padding: 0;
+    margin: 0 auto;
+    border: 1px solid rgb(61, 61, 61);
+    border-radius: 2px;
+}
+
+.input-text {
+    margin: auto;
+    padding: 6px;
+    flex: 1 0 0;
+    height: 20px;
+    background-color: #000000;
+    border: 0;
+}
+
+.top-center .input-text:focus {
+    outline: none;
+}
+
+.top-center .search-button {
+    cursor: pointer;
+    background-color: #474747;
+    border: 0;
+    padding: 7px;
+    flex: 0 0 65px;
+    /* position: absolute; */
+    /* right: 0; */
+    /* top: 0; */
+}
+
+.top-center .search-button:focus {
+    outline: none;
+}
+
+/* @HEADER RİGHT */
+.top-right {
+    /* width: 25%; */
+}
+
+.top-right .right-menu {
+    display: flex;
+    margin: 0;
+    justify-content: flex-end;
+}
+
+.top-right .right-menu .menu-item {
+    margin: auto 15px;
+
+}
+
+.top-right .right-menu .menu-item:last-child img {
+    border-radius: 50%;
+}

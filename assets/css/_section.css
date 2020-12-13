@@ -1,0 +1,66 @@
+.hr {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.hr hr {
+    background-color: red;
+}
+
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-top: 100px;
+    padding-right: 50px;
+}
+
+.video-card {
+    width: 350px;
+    margin-bottom: 40px;
+}
+
+.video-card .video-img {
+    position: relative;
+}
+
+.video-card .video-img img {
+    border-radius: 2px;
+}
+
+.video-card .video-img span {
+    position: absolute;
+    z-index: 20;
+    padding: 2px;
+    bottom: 15px;
+    right: 15px;
+    background: rgb(37, 37, 37);
+    color: #fff;
+}
+
+.video-card .video-content {
+    display: flex;
+    align-items: center;
+}
+
+.video-card .video-content img {
+    margin-top: -30px;
+    border-radius: 50%;
+}
+
+.video-card .video-content .video-info {
+    margin-left: 20px;
+}
+
+.video-card .video-content .video-info p {
+    margin: 0;
+    color: rgb(134, 130, 130);
+}
+
+.video-card .video-content .video-info h2 {
+    margin-top: 0;
+    margin-bottom: 0px;
+    color: #fff;
+}
